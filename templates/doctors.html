@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block title%}
+Doctors
+{% endblock %}
+
+{% block content %}<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="" >
+    <title>Doctors</title>
+</head>
+<body>
+    <h1 class="text-center"> Our Doctors </h1>
+    <div class="container text-center bg-light">
+        {% for i in show %}
+        <div class="card text-center mx-3 my-3" style="width: 18rem; display:inline-block">
+            <img src="/{{ i.Doc_image }}" class="card-img-top img-fluid" alt="..." style="height: 300px; object-fit: cover;">
+
+            <div class="card-body">
+                <h5 class="card-title">Dr. {{i.Doc_name}}</h5>
+                <p class="card-text">{{i.Doc_spec}}</p>
+                <h6>{{i.Dep_name}} Department</h6>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    
+ 
+{% endblock %}
+   
+</body>
+</html>

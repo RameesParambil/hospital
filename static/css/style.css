@@ -1,0 +1,92 @@
+.navbar-nav li:hover {
+    background-color: black;
+    border-radius: 10px;
+}
+
+
+
+/*---------------------------------------
+    ABOUT              
+-----------------------------------------*/
+
+
+#about .container {
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+#about .card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#about .card-body {
+    padding: 30px;
+}
+
+#about .title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#about .description {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+#about .subtitle {
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+#about .services-list {
+    margin-bottom: 30px;
+}
+
+#about .services-list li {
+    padding: 5px 0;
+    list-style: none;
+}
+
+#about .reasons,
+#about .contact-info {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#about .reasons li,
+#about .contact-info li {
+    margin-bottom: 10px;
+}
+
+#about .subtitle + #about .reasons,
+#about .subtitle + #about .contact-info {
+    margin-top: 10px;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+    #about .container {
+        padding: 0 10px;
+    }
+
+    #about .title {
+        font-size: 2rem;
+    }
+
+    #about .subtitle {
+        font-size: 1.8rem;
+    }
+
+    #about .description,
+    #about .mission,
+    #about .services,
+    #about .community {
+        font-size: 1rem;
+    }
+}
+

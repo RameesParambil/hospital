@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+
+
+{% block title%}
+Booking
+{% endblock %}
+
+{% block content %}
+<div class="container text-center">  
+     {% for k in messages %}
+     {{k}}
+     {% endfor %}
+</div>
+<div class="new">
+     <a href="{% url 'add_patient'%}"><button class="btn btn-primary "> New Patient Register </button></a>
+     
+</div>
+<section  id="appointment" data-stellar-background-ratio="3">
+     <div class="form-container" >      
+          <div class="row">
+                    <form id="appointment-form" action="" method="POST">
+
+                         {% csrf_token %}
+
+                         <div class="section-title wow fadeInUp" >
+                              <h1 class="mt-5 mb-4">Book An Appointment</h1>
+                         </div>
+
+                         <div class="wow fadeInUp form-content " >
+                              <div class="col-md-10 col-sm-10">
+                                   <label for="p_name">Patient Name </label>
+                                   <input type="text" class="form-control" id="p_name" name="p_name" placeholder="Full Name">
+                              </div>
+
+                              <div class="col-md-10 col-sm-10">
+                              <label for="p_email">Email</label>
+                              <input type="email" class="form-control" id="p_email" name="p_email" placeholder="Your Email">
+                              </div>
+
+                              <div class="col-md-10 col-sm-10">
+                                   <label for="doc_name">Doctor Name </label>
+     
+                                   <select name="doc_name" id="doc_name" class="form-control">
+                                       {% for i in user %}
+                                       <option value="{{i.Doc_name}}" > Dr. {{i.Doc_name }} ( {{i.Doc_spec }} )</option>
+                                       {% endfor %}
+                                   </select>
+                              </div>
+                              <div class="col-md-10 col-sm-10">
+                                   <label for="booking_date">Select Date</label>
+                                   <input type="date" id="booking_date" name="booking_date" value="" class="form-control">
+                              </div>
+
+                              <div class="col-md-10 col-sm-10">
+                                   <label for="p_phone">Registered Phone Number</label>
+                                   <input type="tel" class="form-control" id="p_phone" name="p_phone" placeholder="Phone Number">
+                                   
+                                  <button type="submit" class="form-control btn btn-primary " id="cf-submit" name="submit">Submit Button</button>
+                              </div><br>
+                         </div>
+                    </form>
+          </div>
+     </div>
+</section>
+
+ 
+
+
+{% endblock %} 
+   

@@ -1,0 +1,71 @@
+/*---------------------------------------
+    APPOINTMENT              
+-----------------------------------------*/
+
+#appointment {
+    display: block;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+.form-container{
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e8edf1;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+.row { 
+    padding-left: 75px; 
+    margin: 0 auto;
+}
+
+    
+
+#appointment label {
+  color: #393939;
+  font-weight: 500;
+}
+
+#appointment .form-control {
+  background: #f9f9f9;
+  border: none;
+  border-radius: 3px;
+  box-shadow: none;
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 15px;
+  transition: all ease-in-out 0.4s;
+}
+
+#appointment input,
+#appointment select {
+  height: 45px;
+}
+
+#appointment button#cf-submit {
+  background: #a5c422;
+  color: #ffffff;
+  font-weight: 600;
+  height: 55px;
+}
+
+#appointment button#cf-submit:hover {
+  background: #393939;
+  color: #ffffff;
+}
+
+.new { 
+  text-align: right;
+  padding-top: 30px;
+  padding-right: 20px;
+  position: relative;
+  display: block;
+}
+
+
+
+ 
+
