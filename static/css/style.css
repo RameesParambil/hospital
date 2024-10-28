@@ -1,15 +1,10 @@
+/* Navigation Styles */
 .navbar-nav li:hover {
     background-color: black;
     border-radius: 10px;
 }
 
-
-
-/*---------------------------------------
-    ABOUT              
------------------------------------------*/
-
-
+/* About Section */
 #about .container {
     margin: 50px auto;
     max-width: 800px;
@@ -68,7 +63,7 @@
     margin-top: 10px;
 }
 
-/* Media Query for responsiveness */
+/* Responsive Styling */
 @media (max-width: 768px) {
     #about .container {
         padding: 0 10px;
@@ -90,3 +85,22 @@
     }
 }
 
+@media (max-width: 576px) {
+    /* Further adjustments for small screens */
+    #about .title {
+        font-size: 1.8rem;
+    }
+
+    #about .subtitle {
+        font-size: 1.5rem;
+    }
+
+    #about .card-body {
+        padding: 15px;
+    }
+
+    /* Navbar item spacing for better mobile view */
+    .navbar-nav .nav-item {
+        margin: 5px 0;
+    }
+}

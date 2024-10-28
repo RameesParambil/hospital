@@ -3,26 +3,25 @@
 -----------------------------------------*/
 
 #appointment {
-    display: block;
-    justify-content: center; 
-    align-items: center; 
-    height: 100vh; 
-}
-.form-container{
-    width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #e8edf1;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    
-}
-.row { 
-    padding-left: 75px; 
-    margin: 0 auto;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
 }
 
-    
+.form-container {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #e8edf1;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.row { 
+  padding-left: 75px; 
+  margin: 0 auto;
+}
 
 #appointment label {
   color: #393939;
@@ -65,7 +64,41 @@
   display: block;
 }
 
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .form-container {
+      width: 90%; /* Adjust form width for tablets */
+      padding: 15px;
+  }
 
+  .row {
+      padding-left: 20px;
+  }
+  
+  #appointment .form-control {
+      font-size: 13px; /* Slightly smaller text */
+  }
+}
 
- 
+@media (max-width: 576px) {
+  /* Further adjustments for smaller screens */
+  .form-container {
+      width: 100%; /* Full width for small devices */
+      padding: 10px;
+  }
 
+  #appointment label {
+      font-size: 0.9rem;
+  }
+
+  #appointment button#cf-submit {
+      height: 50px; /* Adjust button height */
+      font-size: 0.9rem;
+  }
+
+  .new {
+      text-align: center;
+      padding-top: 20px;
+      padding-right: 0;
+  }
+}
