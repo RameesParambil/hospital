@@ -67,7 +67,7 @@
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   .form-container {
-      width: 90%; /* Adjust form width for tablets */
+      width: 90%; 
       padding: 15px;
   }
 
@@ -76,14 +76,13 @@
   }
   
   #appointment .form-control {
-      font-size: 13px; /* Slightly smaller text */
+      font-size: 13px; 
   }
 }
 
 @media (max-width: 576px) {
-  /* Further adjustments for smaller screens */
   .form-container {
-      width: 100%; /* Full width for small devices */
+      width: 100%;
       padding: 10px;
   }
 
@@ -92,7 +91,7 @@
   }
 
   #appointment button#cf-submit {
-      height: 50px; /* Adjust button height */
+      height: 50px; 
       font-size: 0.9rem;
   }
 

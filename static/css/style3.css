@@ -125,7 +125,7 @@
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     .new-container {
-        width: 90%; /* Adjusted form width */
+        width: 90%; 
         padding: 15px;
     }
 
@@ -144,9 +144,8 @@
 }
 
 @media (max-width: 576px) {
-    /* Further adjustments for smaller screens */
     .new-container {
-        width: 100%; /* Full width for smaller devices */
+        width: 100%; 
         padding: 10px;
     }
 
@@ -173,3 +172,9 @@
         padding-left: 10px;
     }
 }
+
+
+
+
+
+

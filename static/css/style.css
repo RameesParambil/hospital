@@ -86,7 +86,7 @@
 }
 
 @media (max-width: 576px) {
-    /* Further adjustments for small screens */
+    
     #about .title {
         font-size: 1.8rem;
     }
@@ -99,7 +99,7 @@
         padding: 15px;
     }
 
-    /* Navbar item spacing for better mobile view */
+   
     .navbar-nav .nav-item {
         margin: 5px 0;
     }
