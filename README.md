@@ -15,3 +15,7 @@ The Hospital Management System efficiently manages patient and doctor informatio
 - Django
 - Python
 - SQLite
+
+## Screenshots
+
+![Homepage](https://github.com/RameesParambil/hospital/blob/fcd11f76c674c028a58cc10dec356969e48ff0f8/Screenshot%202024-12-12%20233026.png)
