@@ -1,7 +1,7 @@
 
 # Hospital Management System
 
-A system for managing hospital operations, including patient and doctor information, appointments, and front-office tasks.
+The Hospital Management System efficiently manages patient and doctor information, appointments, and front office tasks. It features secure user authentication for accessing records and medical details. Dynamic web pages allow easy updates, and the responsive design ensures accessibility across devices.
 
 ## Features
 - Manage patient and doctor information efficiently.
