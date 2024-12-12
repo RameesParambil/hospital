@@ -22,3 +22,4 @@ The Hospital Management System efficiently manages patient and doctor informatio
 ![Booking page](https://github.com/RameesParambil/hospital/blob/33639d193025478119d1476dd3d50ee543392369/Screenshot%202024-12-12%20233048.png)
 ![Register page](https://github.com/RameesParambil/hospital/blob/13676b49d8ace5759259126be19f425750f74a7b/Screenshot%202024-12-12%20233118.png)
 ![Doctors](https://github.com/RameesParambil/hospital/blob/5c20cd2099d91a602b5e1d7c7be5c9a64f22a897/Screenshot%202024-12-12%20233137.png)
+![image alt](https://github.com/RameesParambil/hospital/blob/ac3be372f13271f802a129be4de72257ec87c7e1/Screenshot%202024-12-12%20233156.png)
