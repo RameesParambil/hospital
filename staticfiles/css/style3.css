@@ -1,0 +1,180 @@
+/*---------------------------------------
+    ADD PATIENTS            
+-----------------------------------------*/
+
+#new_patient {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+.new-container {
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e8edf1;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.row { 
+    padding-left: 75px; 
+    margin: 0 auto;
+}
+
+#new_patient label {
+    color: #393939;
+    font-weight: 500;
+}
+
+#new_patient .form-control {
+    background: #f9f9f9;
+    border: none;
+    border-radius: 3px;
+    box-shadow: none;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 15px;
+    transition: all ease-in-out 0.4s;
+}
+
+#new_patient input,
+#new_patient select {
+    height: 45px;
+}
+
+#new_patient button#cf-submit {
+    color: #ffffff;
+    font-weight: 600;
+    height: 55px;
+}
+
+#new_patient button#cf-submit:hover {
+    background: #393939;
+    color: #ffffff;
+}
+
+#new_patient .patient-form {
+    background: #f9f9f9;
+    border: none;
+    border-radius: 3px;
+    box-shadow: none;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 15px;
+    width: 150px;
+}
+
+#new_patient #patient_age {
+    padding-left: 50px;
+}
+
+#new_patient .patient_age {
+    padding-left: 40px;
+    display: inline-block;
+}
+
+#new_patient #gender {
+    padding-left: 20px;
+    display: inline-block;
+}
+
+#new_patient .gender {
+    padding-left: 16px;
+    display: inline-block;
+}
+
+#new_patient #cf-submit {
+    color: #ffffff;
+    font-weight: 600;
+    height: 50px;
+    width: 100px;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+#new_patient .save {    
+    width: 100px;
+    height: 50px;
+    display: block;
+    padding-top: 55px;
+}
+
+#new_patient #new_form {
+    padding-bottom: 50px;
+}
+
+#new_patient .close { 
+    width: 100px;
+    height: 55px;
+    margin-left: 140px; 
+    display: inline-block;
+    padding-bottom: 85px;
+}
+
+#new_patient #close_button {
+    background: #f00404;
+    color: #ffffff;
+    font-weight: 600;
+    height: 56px;
+    width: 100px;
+    display: inline-block; 
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .new-container {
+        width: 90%; 
+        padding: 15px;
+    }
+
+    .row {
+        padding-left: 20px;
+    }
+
+    #new_patient .form-control {
+        font-size: 13px;
+    }
+    
+    #new_patient .patient-form,
+    #new_patient #cf-submit {
+        width: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .new-container {
+        width: 100%; 
+        padding: 10px;
+    }
+
+    #new_patient label,
+    #new_patient #close_button,
+    #new_patient #cf-submit {
+        font-size: 0.9rem;
+    }
+
+    #new_patient #close_button,
+    #new_patient #cf-submit {
+        height: 50px;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .row {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #new_patient .patient_age,
+    #new_patient .gender {
+        padding-left: 10px;
+    }
+}
+
+
+
+
+
+
